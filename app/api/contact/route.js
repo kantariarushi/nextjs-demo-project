@@ -25,7 +25,7 @@ export async function POST(req) {
     };
 
     // MongoDB connection string
-    const connectionString = `mongodb+srv://rushikantaria:TbJzxn8njnIjjgSm@cluster0.yjqon.mongodb.net/my-site?retryWrites=true&w=majority`;
+    const connectionString = `mongodb+srv://rushikantaria:TfXkYarzsmM7aTUI@cluster0.yjqon.mongodb.net/my-site?retryWrites=true&w=majority`;
 
     let client;
 
