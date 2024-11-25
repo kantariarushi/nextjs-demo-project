@@ -25,7 +25,7 @@ export async function POST(req) {
     };
 
     // MongoDB connection string
-    const connectionString = `mongodb+srv://${process.env.MONGODB_USER_NAME}:${process.env.MONGODB_USER_PASSWORD}@${process.env.MONGODB_CLUSTER_NAME}.yjqon.mongodb.net/my-site?retryWrites=true&w=majority`;
+    const connectionString = `mongodb+srv://rushikantaria:TfXkYarzsmM7aTUI@cluster0.yjqon.mongodb.net/my-site?retryWrites=true&w=majority`;
 
     let client;
 
